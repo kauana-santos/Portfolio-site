@@ -1,8 +1,15 @@
+
 @media (max-width:900px) {
 
     .navegacao{
         display: flex;
     }
+
+    .space-logo{
+        margin: 0;
+    }
+
+
 
     #home, #about, #skill, #portifolio{
         margin: 0;
@@ -35,11 +42,11 @@
     .about-texto{
         padding-right: 30px;
         padding-left: 30px;
+        margin-top: 5px;
     }
 
     .about-img{
-        width: 150px;
-        height: 150px;
+        height: 190px;
     }
 
     .skill-container {
@@ -65,17 +72,18 @@
         display: flex;
         flex-direction: column;
         text-align: center;
+        margin: 0;
     }
 
     .portifolio-secao, .portifolio-h1{
         margin: auto;
-        width: 400px;
+      
         text-align: center;
     }
 
     .contato-container .contato-texto, .contato-titulo{
         margin: 0;
-        padding: 12% 0 0;
+        padding: 25px 0 0 5px;
         text-align: center;
     }
 }
